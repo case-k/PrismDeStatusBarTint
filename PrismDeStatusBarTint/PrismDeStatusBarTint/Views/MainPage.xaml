@@ -4,8 +4,9 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="PrismDeStatusBarTint.Views.MainPage"
-             Title="MainPage">
+             Title="MainPage"
+             BackgroundColor="Black">
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-    <Label Text="{Binding Title}" />
+    <Label Text="{Binding Title}" TextColor="White" />
   </StackLayout>
 </ContentPage>
